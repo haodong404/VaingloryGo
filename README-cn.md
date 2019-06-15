@@ -14,9 +14,9 @@
 [![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/coolapk.png)](https://www.coolapk.com/apk/vcoty.vainglory.go)
 
 ### 截屏
-| | | | | | | |
+| Header | Header | Header | Header | Header | Header | Header |
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
-|    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Search_page.png)       |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Main.png)     |   ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Match.png)       |     ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)      |    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Player's_data page.png)      |       ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)    |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Settings.png)|
+|    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Search_page.png)       |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Main.png)     |   ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Match.png)       |     ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)      |    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Player's_data_page.png)      |       ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)    |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Settings.png)|
 
 ### 代码规范
 - 所有Activity继承自BaseActivity 所有Fragment继承自BaseFragment

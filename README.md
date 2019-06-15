@@ -14,9 +14,9 @@ English │[中文](https://github.com/VcotyQin/VaingloryGo/blob/master/README-c
 [![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/coolapk.png)](https://www.coolapk.com/apk/vcoty.vainglory.go)
 
 ### Screenshots
-| | | | | | | |
+| Header | Header | Header | Header | Header | Header | Header |
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
-|    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Search_page.png)       |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Main.png)     |   ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Match.png)       |     ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)      |    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Player's_data page.png)      |       ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)    |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Settings.png)|
+|    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Search_page.png)       |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Main.png)     |   ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Match.png)       |     ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)      |    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Player's_data_page.png)      |       ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)    |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Settings.png)|
 
 ### Code specification
 - All "Activity" inherit from "BaseActivity". All "Fragment" inherit from "BaseFragment".
