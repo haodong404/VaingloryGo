@@ -8,7 +8,7 @@ English │[中文](https://github.com/VcotyQin/VaingloryGo/blob/master/README-c
 - Rxjava2
 - Fast Android Networking Library is network framework
 - Api specification of json-api
-- Develop with [AIDE](https://www.android-ide.com/)(Android IDE on Android)
+- Developed with [AIDE](https://www.android-ide.com/)(Android IDE on Android)
 
 
 [![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/coolapk.png)](https://www.coolapk.com/apk/vcoty.vainglory.go)
