@@ -30,17 +30,17 @@ English │[中文](https://github.com/VcotyQin/VaingloryGo/blob/master/README-c
 - Use [Bmob](bmob.cn) to manage the heroes' head image, outfit image and related information of historical versions.
 
 ### Thanks for open source projects
-- [LitePal](https://github.com/LitePalFramework/LitePal.git) datebase framework
-- [Rxjava2](https://github.com/ReactiveX/RxJava.git) Reactive Extensions for the JVM
-- [RxAndroid2](https://github.com/ReactiveX/RxAndroid.git) Rxjava's expansion of Android
-- [RxLifecycle](https://github.com/trello/RxLifecycle.git) Manage the Lifecycle
-- [Rxbinding](https://github.com/JakeWharton/RxBinding.git) Handling UI widgets in the form of rxjava
-- [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking.git) Network framework
-- [Picasso](https://github.com/square/picasso.git) Picture loading
-- [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper.git) Quickly create RecyclerView Adapter
-- [AnimatedPieView](https://github.com/razerdp/AnimatedPieView.git) Very graceful pie chart.
-- [Moshi](https://github.com/square/moshi.git) json serialization framework
-- [Moshi-jsonapi](https://github.com/kamikat/moshi-jsonapi.git) Moshi's extension of json-api
+- [LitePal](https://github.com/LitePalFramework/LitePal) datebase framework
+- [Rxjava2](https://github.com/ReactiveX/RxJava) Reactive Extensions for the JVM
+- [RxAndroid2](https://github.com/ReactiveX/RxAndroid) Rxjava's expansion of Android
+- [RxLifecycle](https://github.com/trello/RxLifecycle) Manage the Lifecycle
+- [Rxbinding](https://github.com/JakeWharton/RxBinding) Handling UI widgets in the form of rxjava
+- [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking) Network framework
+- [Picasso](https://github.com/square/picasso) Picture loading
+- [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper) Quickly create RecyclerView Adapter
+- [AnimatedPieView](https://github.com/razerdp/AnimatedPieView) Very graceful pie chart.
+- [Moshi](https://github.com/square/moshi) json serialization framework
+- [Moshi-jsonapi](https://github.com/kamikat/moshi-jsonapi) Moshi's extension of json-api
 
 ### License
 [Apache License 2.0](https://github.com/VcotyQin/VaingloryGo/blob/master/LICENSE)
