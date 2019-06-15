@@ -11,17 +11,12 @@ English │[中文](https://github.com/VcotyQin/VaingloryGo/blob/master/README-c
 - Develop with [AIDE](https://www.android-ide.com/)(Android IDE on Android)
 
 
-[![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/coolapk.png)](https://www.coolapk.com/apk/vcoty.vainglory.go)
+[![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/coolapk.png)](https://www.coolapk.com/apk/vcoty.vainglory.go)
 
 ### Screenshots
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Search_page.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Main.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Match.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/player.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Player's_data page.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Search_page.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Settings.png)
-
+| | | | | | | |
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+|    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Search_page.png)       |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Main.png)     |   ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Match.png)       |     ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)      |    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Player's_data page.png)      |       ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)    |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Settings.png)|
 
 ### Code specification
 - All "Activity" inherit from "BaseActivity". All "Fragment" inherit from "BaseFragment".
@@ -34,7 +29,7 @@ English │[中文](https://github.com/VcotyQin/VaingloryGo/blob/master/README-c
 - Other game date from official Vainglory.
 - Use [Bmob](bmob.cn) to manage the heroes' head image, outfit image and related information of historical versions.
 
-###Thanks for open source projects
+### Thanks for open source projects
 - [LitePal](https://github.com/LitePalFramework/LitePal.git) datebase framework
 - [Rxjava2](https://github.com/ReactiveX/RxJava.git) Reactive Extensions for the JVM
 - [RxAndroid2](https://github.com/ReactiveX/RxAndroid.git) Rxjava's expansion of Android

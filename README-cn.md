@@ -11,17 +11,12 @@
 - 全程使用[AIDE](https://www.android-ide.com/)(Android端开发Android程序的IDE)开发
 
 
-[![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/coolapk.png)](https://www.coolapk.com/apk/vcoty.vainglory.go)
+[![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/coolapk.png)](https://www.coolapk.com/apk/vcoty.vainglory.go)
 
 ### 截屏
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Search_page.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Main.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Match.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/player.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Player's_data page.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Search_page.png)
-![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Settings.png)
-
+| | | | | | | |
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+|    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Search_page.png)       |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Main.png)     |   ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Match.png)       |     ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)      |    ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Player's_data page.png)      |       ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/player.png)    |      ![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/Settings.png)|
 
 ### 代码规范
 - 所有Activity继承自BaseActivity 所有Fragment继承自BaseFragment
@@ -34,7 +29,7 @@
 - 其它游戏数据来自于虚荣官方
 - 采用Bmob后端云管理英雄头像图片，装备图片以及历代版本的相关信息
 
-###感谢开源项目
+### 感谢开源项目
 - [LitePal](https://github.com/LitePalFramework/LitePal.git) 数据库框架
 - [Rxjava2](https://github.com/ReactiveX/RxJava.git) 响应式编程
 - [RxAndroid2](https://github.com/ReactiveX/RxAndroid.git) Rxjava对Android的拓展
