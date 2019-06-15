@@ -30,17 +30,17 @@
 - 采用Bmob后端云管理英雄头像图片，装备图片以及历代版本的相关信息
 
 ### 感谢开源项目
-- [LitePal](https://github.com/LitePalFramework/LitePal.git) 数据库框架
-- [Rxjava2](https://github.com/ReactiveX/RxJava.git) 响应式编程
-- [RxAndroid2](https://github.com/ReactiveX/RxAndroid.git) Rxjava对Android的拓展
-- [RxLifecycle](https://github.com/trello/RxLifecycle.git) 控制生命周期
-- [Rxbinding](https://github.com/JakeWharton/RxBinding.git) 以rxjava的形式处理ui控件
-- [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking.git) 网络请求框架
-- [Picasso](https://github.com/square/picasso.git) 图片加载
-- [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper.git) 快速创建RecyclerView Adapter
-- [AnimatedPieView](https://github.com/razerdp/AnimatedPieView.git) 非常漂亮的饼状图
-- [Moshi](https://github.com/square/moshi.git) json解析框架
-- [Moshi-jsonapi](https://github.com/kamikat/moshi-jsonapi.git) 对json-api规范的Moshi拓展
+- [LitePal](https://github.com/LitePalFramework/LitePal) 数据库框架
+- [Rxjava2](https://github.com/ReactiveX/RxJava) 响应式编程
+- [RxAndroid2](https://github.com/ReactiveX/RxAndroid) Rxjava对Android的拓展
+- [RxLifecycle](https://github.com/trello/RxLifecycle) 控制生命周期
+- [Rxbinding](https://github.com/JakeWharton/RxBinding) 以rxjava的形式处理ui控件
+- [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking) 网络请求框架
+- [Picasso](https://github.com/square/picasso) 图片加载
+- [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper) 快速创建RecyclerView Adapter
+- [AnimatedPieView](https://github.com/razerdp/AnimatedPieView) 非常漂亮的饼状图
+- [Moshi](https://github.com/square/moshi) json解析框架
+- [Moshi-jsonapi](https://github.com/kamikat/moshi-jsonapi) 对json-api规范的Moshi拓展
 
 ### License
 [Apache License 2.0](https://github.com/VcotyQin/VaingloryGo/blob/master/LICENSE)
