@@ -9,7 +9,7 @@
 - Fast Android Networking Library为网络框架
 - json-api的api规范
 - 全程使用[AIDE](https://www.android-ide.com/)(Android端开发Android程序的IDE)开发
-
+- API凉了，所以你什么也查不到。
 
 [![image](https://raw.githubusercontent.com/VcotyQin/VaingloryGo/master/Screenshots/coolapk.png)](https://www.coolapk.com/apk/vcoty.vainglory.go)
 
