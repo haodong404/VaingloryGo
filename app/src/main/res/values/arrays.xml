@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 语言 -->
+    <array name="setting_language">
+        <item>@string/setting_category_routine_language_auto</item>
+        <item>简体中文</item>
+        <item>English</item>
+    </array>
+	
+	<array name="setting_language_value">
+		<item>auto</item>
+		<item>cn</item>
+		<item>en</item>
+	</array>
+	
+	<!-- 地区 -->
+	<array name="setting_regions">
+        <item>@string/cn_string</item>
+        <item>@string/na_string</item>
+		<item>@string/eu_string</item>
+		<item>@string/sa_string</item>
+		<item>@string/ea_string</item>
+		<item>@string/sg_string</item>
+    </array>
+
+	<array name="setting_regions_value">
+		<item>auto</item>
+		<item>cn</item>
+		<item>na</item>
+		<item>eu</item>
+		<item>sa</item>
+		<item>ea</item>
+		<item>sg</item>
+	</array>
+	
+	<!-- 分段展示规则 -->
+	<array name="setting_ranking_points_display_rules">
+        <item>@string/setting_category_routine_ranking_points_show_auto</item>
+        <item>@string/setting_category_routine_ranking_points_show_33</item>
+		<item>@string/setting_category_routine_ranking_points_show_55</item>
+		<item>@string/setting_category_routine_ranking_points_show_blitz</item>
+    </array>
+
+	<array name="setting_ranking_points_display_rules_value">
+		<item>auto</item>
+		<item>_33</item>
+		<item>_55</item>
+		<item>blitz</item>
+	</array>
+	
+</resources>

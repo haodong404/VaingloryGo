@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="colorAccentPink">#EC407A</color>
+	<color name="colorPrimaryPink">#F06292</color>
+	<color name="colorPrimaryDarkPink">#EC407A</color>
+
+	<color name="colorDividerPink">#DCDCDC</color>
+
+  	<style name="PinkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+		<!-- Global -->
+		<item name="colorToolBarContent">#ffffff</item>
+		<item name="colorBackground">#FFFFFFFF</item>
+		<item name="colorBackgroundSecond">#FFEFEFEF</item>
+		<item name="colorRipple">#EBEBEB</item>
+		<item name="colorDivider">@color/colorDividerPink</item>
+
+		<item name="colorPrimary">@color/colorPrimaryPink</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDarkPink</item>
+		<item name="colorAccent">@color/colorAccentPink</item>
+		<item name="android:windowNoTitle">true</item>
+
+
+		<!-- Text color -->
+		<item name="colorTextStandard">@color/Black</item>
+		<item name="colorTextWhite">@color/White</item>
+		<item name="colorTextBlack">@color/Black</item>
+
+		<!-- SearchActivity Activity -->
+		<item name="colorSearchActTitle">#ffffffff</item>
+		<item name="colorSearchActSubtitle">#d9ffffff</item>
+		<item name="colorTextSearchActAccent">#ffffffff</item>
+
+		<!-- Search Bar Actvity -->
+		<item name="colorSearchEditTextView">@color/White</item>
+
+		<!-- MainActivity -->
+		<item name="colorIndicatorMain">#ffffffff</item>
+		<item name="colorIconUnselect">#8cFFFFFF</item>
+		<item name="colorIconSelect">#FFFFFFFF</item>
+
+
+	</style>
+
+	<style name="FullScreenDialogToolbar">
+		<item name="android:background">@color/colorPrimaryPink</item>
+		<item name="android:theme">@style/PinkTheme</item>
+	</style>
+
+</resources>
+	

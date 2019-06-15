@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory
+        android:title="@string/setting_category_routine">
+
+		<!-- 主题 -->
+		<vcoty.vainglory.go.widget.ExpandPreference
+			android:icon="@drawable/ic_palette"
+			android:key="setting_theme"
+			android:summary="@string/setting_category_routine_theme_white"
+			android:title="@string/setting_category_routine_theme"/>
+
+		<!-- 状态栏颜色统一 -->
+		<SwitchPreference
+			android:icon="@drawable/ic_application"
+			android:defaultValue="false"
+			android:key="setting_status_unite"
+			android:title="@string/setting_category_routine_status_unite"/>
+
+		<!-- 语言 -->
+		<ListPreference
+			android:icon="@drawable/ic_translate"
+			android:defaultValue="auto"
+			android:dialogTitle="@string/setting_category_routine_language"
+			android:entries="@array/setting_language"
+			android:entryValues="@array/setting_language_value"
+			android:key="setting_language"
+			android:summary="Auto"
+			android:title="@string/setting_category_routine_language"/>
+
+		<!-- 地区 -->
+		<Preference
+			android:icon="@drawable/ic_earth"
+			android:defaultValue="cn"
+			android:key="setting_regions"
+			android:title="@string/setting_category_routine_regions"/>
+
+		<!-- 分段展示规则 -->
+		<ListPreference
+			android:icon="@drawable/ic_trophy"
+			android:defaultValue="auto"
+			android:dialogTitle="@string/setting_category_routine_ranking_points_show"
+			android:entries="@array/setting_ranking_points_display_rules"
+			android:entryValues="@array/setting_ranking_points_display_rules_value"
+			android:key="setting_ranking_points_show"
+			android:summary="@string/setting_category_routine_ranking_points_show_auto"
+			android:title="@string/setting_category_routine_ranking_points_show"/>
+		
+
+		<!-- 转跳 -->
+		<Preference
+			android:icon="@drawable/ic_telegram"
+			android:key="setting_jump"
+			android:summary="@string/setting_category_routine_jump_summary"
+			android:title="@string/setting_category_routine_jump"/>
+		
+    </PreferenceCategory>
+
+	<PreferenceCategory
+        android:title="@string/setting_category_advance">
+
+		<!-- 更新资源 -->
+		<Preference
+			android:icon="@drawable/ic_refresh"
+			android:key="setting_updata_resource"
+			android:summary="@string/setting_category_advance_updata_resource_summary"
+			android:title="@string/setting_category_advance_updata_resource"/>
+
+		<!-- 清楚缓存 -->
+		<Preference
+			android:icon="@drawable/ic_cached"
+			android:key="setting_destroy_cache"
+			android:summary="大小 : 154KB"
+			android:title="@string/setting_category_advance_destroy_cache"/>
+
+		<!-- 搜索加速 -->
+		<SwitchPreference
+			android:icon="@drawable/ic_rocket"
+			android:defaultValue="true"
+			android:key="setting_seach_accelerate"
+			android:summary="@string/setting_category_advance_search_accelerate_summary"
+			android:title="@string/setting_category_advance_search_accelerate"/>
+
+
+    </PreferenceCategory>
+
+	<PreferenceCategory
+        android:title="@string/setting_category_about">
+
+		<Preference
+			android:key="setting_about_version"
+			android:summary="当前版本：1.0.0 alpha"
+			android:title="@string/setting_category_about_version"/>
+
+		<Preference
+			android:key="setting_about_buy_coffee"
+			android:title="@string/setting_category_about_buy_a_coffee"
+			android:summary="@string/setting_category_about_buy_a_coffee_summary"/>
+
+		<Preference
+			android:key="setting_about_contact"
+			android:summary="Vcoty [vcoty233\@163.com]"
+			android:title="@string/setting_category_about_contact"/>
+
+		<Preference
+			android:key="setting_about_source"
+			android:title="@string/setting_category_about_source"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

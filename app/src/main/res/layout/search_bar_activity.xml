@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/ll_search_bar_activity_root"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:id="@+id/rl_search_bar_activity"
+		android:layout_height="?android:actionBarSize"
+		android:layout_width="match_parent"
+		android:background="?attr/colorSearchEditTextView"
+		android:orientation="horizontal"
+		android:transitionName="sharedView"
+		android:elevation="2dp">
+
+		<EditText
+			android:id="@+id/et_search_bar_activity"
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:layout_marginLeft="8dp"
+			android:textColor="?attr/colorTextStandard"
+			android:alpha="0.87"
+			android:background="@null"
+			android:textSize="18sp"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="8dp"
+			android:hint="@string/search_activity_edittext"
+			android:lines="1"
+			android:imeOptions="actionSend"
+			android:singleLine="true"
+			android:maxLength="20"
+			android:inputType="text"/>
+
+		<TextView
+			android:id="@+id/tv_search_bar_activity_go"
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:clickable="true"
+			android:background="?android:attr/selectableItemBackgroundBorderless"
+			android:text="GO"
+			android:textColor="?colorAccent"
+			android:layout_marginRight="16dp"
+			android:layout_alignParentRight="true"
+			android:textSize="18sp"
+			android:layout_centerVertical="true"
+			android:textStyle="bold"
+			android:gravity="center"/>
+
+	</RelativeLayout>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/rv_search_bar_activity_suggestion_list"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+

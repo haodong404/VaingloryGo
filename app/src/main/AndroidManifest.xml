@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vcoty.vainglory.go" >
+
+	<uses-permission android:name="android.permission.INTERNET" /> 
+	<!--获取GSM（2g）、WCDMA（联通3g）等网络状态的信息  --> 
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+	<!--获取wifi网络状态的信息 --> 
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+	<!--获取sd卡写的权限，用于文件上传和下载-->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+	<uses-permission android:name="android.permission.READ_LOGS" />
+
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	
+    <application
+		android:name=".VaingloryGo"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/SplashTheme">
+
+        <activity
+            android:name=".ui.SearchActivity"
+            android:label="@string/app_name"
+			android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+		<activity
+			android:name="vcoty.vainglory.go.ui.setting.SettingActivity"
+			android:launchMode="singleTask"/>
+		
+		<activity
+			android:name="vcoty.vainglory.go.ui.SearchBarActivity"/>
+		
+		<activity 
+			android:name="vcoty.vainglory.go.ui.MainActivity" />
+		
+		<activity
+			android:name="vcoty.vainglory.go.ui.roster.RosterActivity"/>
+		
+		<service android:name=".service.PullResourceService" />
+		
+    </application>
+	
+</manifest>

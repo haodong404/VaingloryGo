@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/main_content"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="?attr/colorPrimary"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		android:fitsSystemWindows="true">
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="?android:actionBarSize"
+			android:background="?attr/selectableItemBackground"
+			android:foreground="?attr/selectableItemBackground"
+			android:layout_margin="8dp"
+			android:clickable="true"
+			android:id="@+id/cv_main_activity_search_bar"
+			app:cardCornerRadius="4dp"
+			app:cardElevation="2dp"
+			android:layout_centerInParent="true"
+			android:transitionName="sharedView"
+			app:layout_scrollFlags="scroll|enterAlways">
+
+			<RelativeLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent">
+
+				<TextView
+					android:id="@+id/tv_main_activity_bar"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:textSize="20sp"
+					android:textColor="#000000"
+					android:alpha="0.54"
+					android:text="Vainglory Go"
+					android:textStyle="bold"
+					android:layout_centerVertical="true"
+					android:layout_marginLeft="16dp"/>
+
+				<ImageView
+					android:id="@+id/iv_main_activity_search"
+					android:layout_height="24dp"
+					android:layout_width="24dp"
+					android:src="@drawable/ic_search"
+					android:layout_marginRight="16dp"
+					android:layout_toLeftOf="@+id/iv_main_activity_menu"
+					android:layout_centerVertical="true"/>
+
+				<ImageView
+					android:id="@+id/iv_main_activity_menu"
+					android:layout_alignParentRight="true"
+					android:clickable="true"
+					android:background="?android:attr/selectableItemBackgroundBorderless"
+					android:padding="8dp"
+					android:layout_height="40dp"
+					android:layout_width="40dp"
+					android:layout_marginRight="16dp"
+					android:src="@drawable/ic_dots_vertical"
+					android:layout_centerVertical="true"/>
+
+			</RelativeLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.design.widget.TabLayout
+			android:id="@+id/tl_main_tablayout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			app:tabIndicatorColor="?attr/colorIndicatorMain"/>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<vcoty.vainglory.go.widget.LazyViewPager
+		android:id="@+id/lazy_vp_main_view_pager"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+</android.support.design.widget.CoordinatorLayout>
+
+

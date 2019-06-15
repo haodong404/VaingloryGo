@@ -1,0 +1,39 @@
+<android.support.v7.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:layout_marginLeft="8dp"
+	android:layout_marginRight="8dp"
+	android:layout_marginBottom="8dp"
+	android:clickable="true"
+	android:id="@+id/cv_include_profile_roles_card"
+	android:layout_below="@id/cv_include_profile_overview_card_overview"
+	android:foreground="?android:attr/selectableItemBackgroundBorderless"
+	app:cardCornerRadius="4dp"
+	app:cardElevation="2dp">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+		
+		<TextView
+			android:id="@+id/tv_include_profile_roles_card_title"
+			android:text="@string/profile_role_title"
+			android:textColor="?attr/colorAccent"
+			android:alpha="0.86"
+			android:paddingTop="16dp"
+			android:paddingLeft="16dp"
+			android:textSize="20sp"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+		
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/rv_profile_roles"
+			android:paddingBottom="16dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+		
+	</LinearLayout>
+</android.support.v7.widget.CardView>

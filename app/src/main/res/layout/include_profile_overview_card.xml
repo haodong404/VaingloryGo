@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:layout_marginLeft="8dp"
+	android:layout_marginRight="8dp"
+	android:layout_marginBottom="8dp"
+	android:clickable="true"
+	android:id="@+id/cv_include_profile_overview_card_overview"
+	android:layout_below="@id/rv_profile_skill_tires"
+	android:foreground="?android:attr/selectableItemBackgroundBorderless"
+	app:cardCornerRadius="4dp"
+	app:cardElevation="2dp">
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:id="@+id/tv_include_profile_overview_card_title"
+			android:text="@string/profile_overview_title"
+			android:textColor="?attr/colorAccent"
+			android:alpha="0.86"
+			android:textSize="20sp"
+			android:layout_margin="16dp"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+
+		<ImageView
+			android:id="@+id/iv_include_profile_overview_card_avg_title"
+			android:layout_below="@id/tv_include_profile_overview_card_title"
+			android:layout_height="24dp"
+			android:layout_width="24dp"
+			android:alpha="0.54"
+			android:layout_marginLeft="16dp"
+			android:src="@drawable/ic_sword"/>
+
+		<TextView
+			android:alpha="0.54"
+			android:textColor="?attr/colorTextStandard"
+			android:textSize="18sp"
+			android:text="@string/profile_overview_avg"
+			android:layout_below="@id/tv_include_profile_overview_card_title"
+			android:layout_toRightOf="@id/iv_include_profile_overview_card_avg_title"
+			android:layout_marginLeft="8dp"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+
+		<LinearLayout
+			android:id="@+id/include_profile_overview_cardLinearLayout"
+			android:gravity="center_vertical"
+			android:layout_below="@id/iv_include_profile_overview_card_avg_title"
+			android:layout_toRightOf="@id/iv_include_profile_overview_card_avg_title"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:orientation="horizontal"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<!-- kills -->
+			<ImageView
+				android:alpha="0.54"
+				android:layout_height="16dp"
+				android:layout_width="16dp"
+				android:src="@drawable/ic_kills"/>
+
+			<TextView
+				android:id="@+id/tv_include_profile_overview_card_kills"
+				android:alpha="0.54"
+				android:textColor="?attr/colorTextStandard"
+				android:textSize="16sp"
+				android:text="1.5"
+				android:layout_marginLeft="5dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<!-- deaths -->		
+			<ImageView
+				android:alpha="0.54"
+				android:layout_height="16dp"
+				android:layout_width="16dp"
+				android:layout_marginLeft="16dp"
+				android:src="@drawable/ic_deaths"/>
+
+			<TextView
+				android:id="@+id/tv_include_profile_overview_card_deaths"
+				android:alpha="0.54"
+				android:textColor="?attr/colorTextStandard"
+				android:textSize="16sp"
+				android:text="0.5"
+				android:layout_marginLeft="5dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<!-- assets -->
+			<ImageView
+				android:alpha="0.54"
+				android:layout_height="16dp"
+				android:layout_width="16dp"
+				android:layout_marginLeft="16dp"
+				android:src="@drawable/ic_assists"/>
+
+			<TextView
+				android:id="@+id/tv_include_profile_overview_card_assists"
+				android:alpha="0.54"
+				android:textColor="?attr/colorTextStandard"
+				android:textSize="16sp"
+				android:text="3.5"
+				android:layout_marginLeft="5dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/tv_include_profile_overview_card_kda"
+			android:alpha="0.54"
+			android:textColor="?attr/colorTextStandard"
+			android:textSize="16sp"
+			android:text="KDA:3.4"
+			android:layout_below="@id/include_profile_overview_cardLinearLayout"
+			android:layout_toRightOf="@id/iv_include_profile_overview_card_avg_title"
+			android:layout_marginLeft="8dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<ImageView
+			android:id="@+id/iv_include_profile_overview_card_rate_title"
+			android:layout_below="@id/tv_include_profile_overview_card_kda"
+			android:layout_height="24dp"
+			android:layout_width="24dp"
+			android:alpha="0.54"
+			android:layout_marginTop="8dp"
+			android:layout_marginLeft="16dp"
+			android:src="@drawable/ic_percent"/>
+
+		<TextView
+			android:text="@string/profile_overview_percent"
+			android:alpha="0.54"
+			android:textColor="?attr/colorTextStandard"
+			android:textSize="18sp"
+			android:layout_marginLeft="8dp"
+			android:layout_below="@id/tv_include_profile_overview_card_kda"
+			android:layout_toRightOf="@id/iv_include_profile_overview_card_rate_title"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginTop="8dp"/>
+
+		<LinearLayout
+			android:id="@+id/include_profile_overview_cardLinearLayout_winrate"
+			android:gravity="center"
+			android:orientation="horizontal"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="72dp"
+			android:layout_marginTop="8dp"
+			android:layout_below="@id/iv_include_profile_overview_card_rate_title"
+			android:layout_toRightOf="@id/iv_include_profile_overview_card_rate_title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:id="@+id/tv_include_profile_overview_card_played_title"
+				android:text="@string/profile_overview_winrate"
+				android:alpha="0.54"
+				android:textColor="?attr/colorTextStandard"
+				android:textSize="16sp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"/>
+
+			<vcoty.vainglory.go.widget.NumberProgressBar
+				android:id="@+id/pb_include_profile_overview_card_winrate_progress"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_marginLeft="8dp"
+				style="@style/NumberProgressBar_Default"
+				app:progress_max="100"
+				app:progress_reached_color="?attr/colorAccent"
+				app:progress_text_color="?attr/colorAccent"
+				app:progress_current="50"/>
+				
+		</LinearLayout>
+		
+		<TextView
+			android:text="688场384胜"
+			android:alpha="0.54"
+			android:textColor="?attr/colorTextStandard"
+			android:textSize="14sp"
+			android:id="@+id/tv_include_profile_overview_card_win_loss"
+			android:layout_below="@id/include_profile_overview_cardLinearLayout_winrate"
+			android:layout_centerHorizontal="true"
+			android:layout_marginRight="72dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+
+		<LinearLayout
+			android:id="@+id/include_profile_overview_cardLinearLayout_kp"
+			android:gravity="center"
+			android:orientation="horizontal"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="60dp"
+			android:layout_below="@id/tv_include_profile_overview_card_win_loss"
+			android:layout_toRightOf="@id/iv_include_profile_overview_card_rate_title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:id="@+id/tv_include_profile_overview_card_kp_title"
+				android:text="@string/profile_overview_kp"
+				android:alpha="0.54"
+				android:textColor="?attr/colorTextStandard"
+				android:textSize="16sp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"/>
+
+			<vcoty.vainglory.go.widget.NumberProgressBar
+				android:id="@+id/pb_include_profile_overview_card_kp_progress"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_marginLeft="8dp"
+				style="@style/NumberProgressBar_Default"
+				app:progress_reached_color="?attr/colorAccent"
+				app:progress_text_color="?attr/colorAccent"
+				app:progress_current="90"/>
+
+		</LinearLayout>
+		
+		<ImageView
+			android:id="@+id/iv_include_profile_overview_card_side"
+			android:layout_below="@id/include_profile_overview_cardLinearLayout_kp"
+			android:layout_height="24dp"
+			android:layout_width="24dp"
+			android:alpha="0.54"
+			android:layout_marginTop="8dp"
+			android:layout_marginLeft="16dp"
+			android:src="@drawable/ic_yin_yang"/>
+
+		<TextView
+			android:id="@+id/tv_include_profile_overview_card_side"
+			android:alpha="0.54"
+			android:textColor="?attr/colorTextStandard"
+			android:textSize="18sp"
+			android:text="@string/profile_overview_fengshui"
+			android:layout_marginTop="8dp"
+			android:layout_below="@id/include_profile_overview_cardLinearLayout_kp"
+			android:layout_toRightOf="@id/iv_include_profile_overview_card_avg_title"
+			android:layout_marginLeft="8dp"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+		
+		<TextView
+			android:id="@+id/tv_include_profile_overview_card_fengshui"
+			android:alpha="0.54"
+			android:textColor="?attr/colorTextStandard"
+			android:textSize="16sp"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="16dp"
+			android:text="你的6348场比赛中，有3258场在红方，你在红方的概率为51.6，红方的胜率为68％"
+			android:layout_below="@id/tv_include_profile_overview_card_side"
+			android:layout_toRightOf="@id/iv_include_profile_overview_card_avg_title"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="16dp"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+		
+	</RelativeLayout>
+
+</android.support.v7.widget.CardView>
+

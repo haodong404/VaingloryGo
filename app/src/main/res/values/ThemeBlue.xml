@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="colorAccentBlue">#1976D2</color>
+	<color name="colorPrimaryBlue">#2196F3</color>
+	<color name="colorPrimaryDarkBlue">#1976D2</color>
+
+	<color name="colorDividerBlue">#DCDCDC</color>
+
+  	<style name="BlueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+		<!-- Global -->
+		<item name="colorToolBarContent">#ffffff</item>
+		<item name="colorBackground">#EEEEEE</item>
+		<item name="colorBackgroundSecond">#FFEFEFEF</item>
+		<item name="colorRipple">#EBEBEB</item>
+		<item name="colorDivider">@color/colorDividerBlue</item>
+
+		<item name="colorPrimary">@color/colorPrimaryBlue</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDarkBlue</item>
+		<item name="colorAccent">@color/colorAccentBlue</item>
+		<item name="android:windowNoTitle">true</item>
+
+
+		<!-- Text color -->
+		<item name="colorTextStandard">@color/Black</item>
+		<item name="colorTextWhite">@color/White</item>
+		<item name="colorTextBlack">@color/Black</item>
+
+		<!-- SearchActivity Activity -->
+		<item name="colorSearchActTitle">#ffffffff</item>
+		<item name="colorSearchActSubtitle">#d9ffffff</item>
+		<item name="colorTextSearchActAccent">#ffffffff</item>
+
+		<!-- Search Bar Actvity -->
+		<item name="colorSearchEditTextView">@color/White</item>
+
+		<!-- MainActivity -->
+		<item name="colorIndicatorMain">#ffffffff</item>
+		<item name="colorIconUnselect">#8cFFFFFF</item>
+		<item name="colorIconSelect">#FFFFFFFF</item>
+
+
+	</style>
+
+	<style name="FullScreenDialogToolbar">
+		<item name="android:background">@color/colorPrimaryBlue</item>
+		<item name="android:theme">@style/BlueTheme</item>
+	</style>
+
+</resources>
+	

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="colorAccentGreen">@color/MaterialOrange</color>
+	<color name="colorPrimaryGreen">@color/MaterialGreen</color>
+	<color name="colorPrimaryDarkGreen">#388E3C</color>
+
+	<color name="colorDividerGreen">#DCDCDC</color>
+
+  	<style name="GreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+		<!-- Global -->
+		<item name="colorToolBarContent">#ffffff</item>
+		<item name="colorBackground">#EEEEEE</item>
+		<item name="colorBackgroundSecond">#FFEFEFEF</item>
+		<item name="colorRipple">#EBEBEB</item>
+		<item name="colorDivider">@color/colorDividerGreen</item>
+
+		<item name="colorPrimary">@color/colorPrimaryGreen</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+		<item name="colorAccent">@color/colorAccentGreen</item>
+		<item name="android:windowNoTitle">true</item>
+
+
+		<!-- Text color -->
+		<item name="colorTextStandard">@color/Black</item>
+		<item name="colorTextWhite">@color/White</item>
+		<item name="colorTextBlack">@color/Black</item>
+
+		<!-- SearchActivity Activity -->
+		<item name="colorSearchActTitle">#FFFFFF</item>
+		<item name="colorSearchActSubtitle">#D9FFFFFF</item>
+		<item name="colorTextSearchActAccent">@color/colorAccentGreen</item>
+
+		<!-- Search Bar Actvity -->
+		<item name="colorSearchEditTextView">@color/White</item>
+
+		<!-- MainActivity -->
+		<item name="colorIndicatorMain">@color/colorAccentGreen</item>
+		<item name="colorIconUnselect">#8cffffff</item>
+		<item name="colorIconSelect">#ffffffff</item>
+
+
+	</style>
+
+</resources>
+	

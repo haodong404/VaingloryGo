@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+		android:id="@+id/item_mode_all"
+		android:title="@string/mode_all"
+		app:showAsAction="never"/>
+
+	<item 
+		android:id="@+id/item_mode_ranked"
+		android:title="@string/mode_ranked"
+		app:showAsAction="never"/>
+
+	<item
+		android:id="@+id/item_mode_casual"
+		android:title="@string/mode_casual"
+		app:showAsAction="never"/>
+
+	<item
+		android:id="@+id/item_mode_5v5_pvp_ranked"
+		android:title="@string/mode_5v5_pvp_ranked"
+		app:showAsAction="never"/>
+
+	<item 
+		android:id="@+id/item_mode_5v5_pvp_casual"
+		android:title="@string/mode_5v5_pvp_casual"
+		app:showAsAction="never"/>
+	
+	<item
+		android:id="@+id/item_mode_casual_aral"
+		android:title="@string/mode_casual_aral"
+		app:showAsAction="never"/>
+
+	<item 
+		android:id="@+id/item_mode_blitz_pvp_ranked"
+		android:title="@string/mode_blitz_pvp_ranked"
+		app:showAsAction="never"/>
+</menu>
+

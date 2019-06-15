@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:foreground="?android:attr/selectableItemBackgroundBorderless"
+	android:clickable="true"
+	android:focusable="true">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="72dp"
+		android:id="@+id/itemrosteroverviewlistRelativeLayout1">
+
+		<de.hdodenhof.circleimageview.CircleImageView
+			android:id="@+id/circle_text_iv_item_roster_overview_list_head_img"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_marginLeft="16dp"
+			android:layout_centerVertical="true"
+			app:civ_border_width="1dp"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="72dp"
+			android:id="@+id/itemrosteroverviewlistLinearLayout1">
+
+			<TextView
+				android:id="@+id/tv_item_roster_overview_list_player_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:maxEms="5"
+				android:ellipsize="end"
+				android:textSize="16sp"
+				android:textColor="?attr/colorTextStandard"
+				android:alpha="0.87"/>
+
+			<TextView
+				android:id="@+id/tv_item_roster_overview_list_kda"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="14sp"
+				android:textColor="?attr/colorTextStandard"
+				android:alpha="0.54"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="64dp"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_toLeftOf="@+id/item_roster_overview_listLinearLayout"
+			android:layout_marginRight="16dp">
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center">
+
+				<ImageView
+					android:src="@drawable/ic_minion"
+					android:layout_width="14dp"
+					android:layout_height="14dp"/>
+
+				<TextView
+					android:id="@+id/tv_item_roster_overview_list_farm"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="3dp"
+					android:alpha="0.87"
+					android:textSize="14sp"
+					android:textColor="?attr/colorTextStandard"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center">
+
+				<ImageView
+					android:src="@drawable/ic_coin"
+					android:layout_width="14dp"
+					android:layout_height="14dp"/>
+
+				<TextView
+					android:id="@+id/tv_item_roster_overview_list_gold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="3dp"
+					android:alpha="0.87"
+					android:textColor="?attr/colorTextStandard"
+					android:textSize="14sp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/tv_item_roster_overview_list_kda_num"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="0/0/0"
+			android:layout_alignParentRight="true"
+			android:alpha="0.87"
+			android:layout_centerVertical="true"
+			android:layout_marginRight="150dp"
+			android:textSize="20sp"
+			android:textColor="?attr/colorTextStandard"/>
+
+		<LinearLayout
+			android:id="@+id/item_roster_overview_listLinearLayout"
+			android:orientation="vertical"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:layout_marginRight="16dp"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:gravity="center">
+
+			<TextView
+				android:id="@+id/tv_item_roster_overview_list_skill_tier"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="\@"
+				android:alpha="0.87"
+				android:textSize="30sp"/>
+
+			<TextView
+				android:id="@+id/tv_item_roster_overview_list_rank_points"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Text"
+				android:textColor="?attr/colorTextStandard"
+				android:alpha="0.54"
+				android:textSize="14sp"
+				android:layout_marginTop="3dp"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+	<ImageView
+		android:id="@+id/iv_item_roster_overview_list_mvp_tag"
+		android:layout_height="32dp"
+		android:layout_width="32dp"
+		android:layout_below="@id/itemrosteroverviewlistRelativeLayout1"
+		android:layout_marginLeft="19dp"
+		android:src="@drawable/ic_mvp"/>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/rv_item_roster_overview_list_items"
+		android:gravity="center"
+		android:layout_marginLeft="66dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="16dp"
+		android:paddingBottom="8dp"
+		android:layout_below="@id/itemrosteroverviewlistRelativeLayout1"/>
+
+</RelativeLayout>
+

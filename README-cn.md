@@ -1,43 +1,43 @@
 # VaingloryGo
-An Android app that queries Vainglory data.
+一个虚荣战绩查询的Android软件
 
-English │[中文](https://github.com/VcotyQin/VaingloryGo/blob/master/README-cn.md)
+[English](https://github.com/VcotyQin/VaingloryGo/blob/master/README.md) │中文
 
-#### Overview
-- MVP framework
+#### 概述
+- MVP 架构
 - Rxjava2
-- Fast Android Networking Library is network framework
-- Api specification of json-api
-- Develop with [AIDE](https://www.android-ide.com/)(Android IDE on Android)
+- Fast Android Networking Library为网络框架
+- json-api的api规范
+- 全程使用[AIDE](https://www.android-ide.com/)(Android端开发Android程序的IDE)开发
 
-#### Code specification
-- All "Activity" inherit from "BaseActivity". All "Fragment" inherit from "BaseFragment".
+#### 代码规范
+- 所有Activity继承自BaseActivity 所有Fragment继承自BaseFragment
 
-- Other references (the above specifications are preferred) [Alibaba code specification for Android](https://www.jianshu.com/p/f5a55dff62f0)
+- 其它的的参照(以上的规范优先)[阿里巴巴Android代码规范](https://www.jianshu.com/p/f5a55dff62f0)
 
-#### Data sources
-- Player personal data from [vgpro.gg](vgpro.gg).
-- Match statistics from [vgpro.gg](vgpro.gg).
-- Other game date from official Vainglory.
-- Use [Bmob](bmob.cn) to manage the heroes' head image, outfit image and related information of historical versions.
+#### 数据源
+- 玩家页数据来自于[vgpro.gg](vgpro.gg)
+- 对局的统计类信息来自于[vgpro.gg](vgpro.gg)
+- 其它游戏数据来自于虚荣官方
+- 采用Bmob后端云管理英雄头像图片，装备图片以及历代版本的相关信息
 
-####Thanks for open source projects
-- [LitePal](https://github.com/LitePalFramework/LitePal.git) datebase framework
-- [Rxjava2](https://github.com/ReactiveX/RxJava.git) Reactive Extensions for the JVM
-- [RxAndroid2](https://github.com/ReactiveX/RxAndroid.git) Rxjava's expansion of Android
-- [RxLifecycle](https://github.com/trello/RxLifecycle.git) Manage the Lifecycle
-- [Rxbinding](https://github.com/JakeWharton/RxBinding.git) Handling UI widgets in the form of rxjava
-- [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking.git) Network framework
-- [Picasso](https://github.com/square/picasso.git) Picture loading
-- [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper.git) Quickly create RecyclerView Adapter
-- [AnimatedPieView](https://github.com/razerdp/AnimatedPieView.git) Very graceful pie chart.
-- [Moshi](https://github.com/square/moshi.git) json serialization framework
-- [Moshi-jsonapi](https://github.com/kamikat/moshi-jsonapi.git) Moshi's extension of json-api
+####感谢开源项目
+- [LitePal](https://github.com/LitePalFramework/LitePal.git) 数据库框架
+- [Rxjava2](https://github.com/ReactiveX/RxJava.git) 响应式编程
+- [RxAndroid2](https://github.com/ReactiveX/RxAndroid.git) Rxjava对Android的拓展
+- [RxLifecycle](https://github.com/trello/RxLifecycle.git) 控制生命周期
+- [Rxbinding](https://github.com/JakeWharton/RxBinding.git) 以rxjava的形式处理ui控件
+- [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking.git) 网络请求框架
+- [Picasso](https://github.com/square/picasso.git) 图片加载
+- [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper.git) 快速创建RecyclerView Adapter
+- [AnimatedPieView](https://github.com/razerdp/AnimatedPieView.git) 非常漂亮的饼状图
+- [Moshi](https://github.com/square/moshi.git) json解析框架
+- [Moshi-jsonapi](https://github.com/kamikat/moshi-jsonapi.git) 对json-api规范的Moshi拓展
 
 #### License
 [Apache License 2.0](https://github.com/VcotyQin/VaingloryGo/blob/master/LICENSE)
 
-#### Change log (No English)
+#### 更新日志
 #####v1.5.7(2019/03/06)
 ```
 [优化] 加载更多的UI

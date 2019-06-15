@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/item_white"
+		android:icon="@drawable/ic_theme_white_color"
+        android:title="@string/setting_category_routine_theme_white"/>
+
+	<item
+        android:id="@+id/item_green"
+		android:icon="@drawable/ic_theme_green_color"
+        android:title="@string/setting_category_routine_theme_green"/>
+
+    <item
+        android:id="@+id/item_purple"
+		android:icon="@drawable/ic_theme_purple_color"
+        android:title="@string/setting_category_routine_theme_purple"/>
+
+	<item
+        android:id="@+id/item_black"
+		android:icon="@drawable/ic_theme_black_color"
+        android:title="@string/setting_category_routine_theme_black"/>
+
+	<item
+        android:id="@+id/item_pink"
+		android:icon="@drawable/ic_theme_pink_color"
+        android:title="@string/setting_category_routine_theme_pink"/>
+
+	<item
+        android:id="@+id/item_blue"
+		android:icon="@drawable/ic_theme_blue_color"
+        android:title="@string/setting_category_routine_theme_blue"/>
+	
+	<item
+        android:id="@+id/item_red"
+		android:icon="@drawable/ic_theme_red_color"
+        android:title="@string/setting_category_routine_theme_red"/>
+	
+</menu>

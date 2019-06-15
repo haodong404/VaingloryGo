@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="colorAccentIndigo">@color/MaterialPink</color>
+	<color name="colorPrimaryIndigo">@color/MaterialIndigo</color>
+	<color name="colorPrimaryDarkIndigo">#303F9F</color>
+
+	<color name="colorDividerIndigo">#DCDCDC</color>
+
+  	<style name="IndigoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+		<!-- Global -->
+		<item name="colorToolBarContent">#ffffff</item>
+		<item name="colorBackground">#EEEEEE</item>
+		<item name="colorBackgroundSecond">#FFEFEFEF</item>
+		<item name="colorRipple">#EBEBEB</item>
+		<item name="colorDivider">@color/colorDividerIndigo</item>
+
+		<item name="colorPrimary">@color/colorPrimaryIndigo</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDarkIndigo</item>
+		<item name="colorAccent">@color/colorAccentIndigo</item>
+		<item name="android:windowNoTitle">true</item>
+
+
+		<!-- Text color -->
+		<item name="colorTextStandard">@color/Black</item>
+		<item name="colorTextWhite">@color/White</item>
+		<item name="colorTextBlack">@color/Black</item>
+
+		<!-- SearchActivity Activity -->
+		<item name="colorSearchActTitle">#ffffffff</item>
+		<item name="colorSearchActSubtitle">#d9ffffff</item>
+		<item name="colorTextSearchActAccent">#ffffffff</item>
+
+		<!-- Search Bar Actvity -->
+		<item name="colorSearchEditTextView">@color/White</item>
+
+		<!-- MainActivity -->
+		<item name="colorIndicatorMain">@color/colorAccentIndigo</item>
+		<item name="colorIconUnselect">#8cffffff</item>
+		<item name="colorIconSelect">#ffffffff</item>
+
+
+	</style>
+
+	<style name="FullScreenDialogToolbar">
+		<item name="android:background">@color/colorPrimaryIndigo</item>
+		<item name="android:theme">@style/IndigoTheme</item>
+	</style>
+
+</resources>
+	

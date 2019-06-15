@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="AppThemeAttr">
+		<!-- Global -->
+		<attr name="colorToolBarContent" format="color" />
+		<attr name="colorBackground" format="color" />
+		<attr name="colorBackgroundSecond" format="color" />
+		<attr name="colorRipple" format="color" />
+		<attr name="colorDivider" format="color" />
+			
+		<!-- Text colors -->
+		<attr name="colorTextStandard" format="color" />
+		<attr name="colorTextWhite" format="color" />
+		<attr name="colorTextBlack" format="color" />
+			
+		<!-- SearchActivity -->
+		<attr name="colorSearchActTitle" format="color"/>
+		<attr name="colorSearchActSubtitle" format="color"/>
+		<attr name="colorTextSearchActAccent" format="color" />
+		
+		<!-- SearchBarActivity -->
+		<attr name="colorSearchEditTextView" format="color" />
+		
+		<!-- MainActivity -->
+		<attr name="colorIndicatorMain" format="color" />
+		<attr name="colorIconUnselect" format="color"/>
+		<attr name="colorIconSelect" format="color"/>
+			
+		<!-- RosterActivity -->
+		<attr name="colorIndicatorRoster" format="color" />
+			
+	</declare-styleable>
+	
+	<declare-styleable name="CircleTextImageView">
+		<attr name="citv_border_width" format="dimension" />
+		<attr name="citv_border_color" format="color" />
+		<attr name="citv_border_overlay" format="boolean" />
+		<attr name="citv_fill_color" format="color" />
+		<attr name="citv_text_text" format="string"/>
+		<attr name="citv_text_color" format="color"/>
+		<attr name="citv_text_size" format="dimension"/>
+		<attr name="citv_text_padding" format="dimension"/>
+	</declare-styleable>
+	
+	<declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+
+        <attr name="progress_text_offset" format="dimension"/>
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference"/>
+    </declare-styleable>
+	
+</resources>

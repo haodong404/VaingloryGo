@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="divider_size">1dp</dimen>
+	<dimen name="divider_margin_left">72dp</dimen>
+	<dimen name="divider_margin_right">0dp</dimen>
+	<dimen name="divider_items_size">6dp</dimen>
+	
+	<dimen name="pie_view_width_roster_stats">3dp</dimen>
+</resources>

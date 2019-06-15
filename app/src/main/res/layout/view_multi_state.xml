@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/ll_view_multi_state_root"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="error"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/tv_view_multi_state_error"
+			android:layout_centerHorizontal="true"
+			android:gravity="center"
+			android:textColor="#FF000000"
+			android:alpha="0.56"/>
+
+		<Button
+			android:id="@+id/btn_view_multi_state_reload"
+			android:layout_width="wrap_content"
+			style="@style/Widget.AppCompat.Button.Borderless"
+			android:textColor="?attr/colorAccent"
+			android:layout_height="wrap_content"
+			android:text="@string/match_refresh_button"
+			android:layout_below="@id/tv_view_multi_state_error"
+			android:gravity="center"
+			android:textSize="16sp"
+			android:layout_centerHorizontal="true"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="center"
+	android:paddingLeft="24dp"
+	android:paddingRight="24dp"
+	android:paddingBottom="24dp"
+	android:paddingTop="8dp">
+
+	<EditText
+		android:id="@+id/et_view_setting_bind_player_name"
+		android:layout_width="0dp"
+		android:inputType="textPersonName"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_weight="100"/>
+
+	<Button
+		android:id="@+id/btn_view_setting_bind_player_apply"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="@string/setting_category_routine_jump_dialog_apply"
+		android:layout_weight="40"
+		android:layout_marginLeft="8dp"/>
+
+</LinearLayout>
+

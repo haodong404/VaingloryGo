@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="72dp"
+	android:clickable="true"
+	android:foreground="?android:attr/selectableItemBackgroundBorderless"
+	android:orientation="vertical">
+
+	<de.hdodenhof.circleimageview.CircleImageView
+		android:id="@+id/circle_image_tv_item_roster_stats_player_head_pic"
+		android:layout_width="40dp"
+		android:layout_height="40dp"
+		android:layout_marginLeft="16dp"
+		android:layout_centerVertical="true"
+		app:civ_border_width="1dp"
+		app:civ_border_color="#e7e7e7"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="72dp">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_height="20dp"
+			android:layout_width="match_parent"
+			android:gravity="center">
+
+			<TextView
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:text="输出"
+				android:textSize="12sp"
+				android:alpha="0.54"
+				android:textColor="?attr/colorTextStandard"
+				android:layout_weight="17"
+				android:gravity="center"/>
+
+			<vcoty.vainglory.go.widget.NumberProgressBar
+				android:id="@+id/npb_item_roster_stats_player_damage"
+				android:layout_height="wrap_content"
+				android:layout_width="0dp"
+				style="@style/NumberProgressBar_Warning_Red"
+				app:progress_max="100"
+				app:progress_current="50"
+				android:layout_weight="100"
+				android:layout_marginRight="6dp"
+				android:layout_marginLeft="3dp"
+				android:alpha="0.87"/>
+
+			<TextView
+				android:id="@+id/tv_item_roster_stats_player_damage"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:alpha="0.87"
+				android:text="11.6 K"
+				android:textSize="14sp"
+				android:textColor="?attr/colorTextStandard"
+				android:layout_weight="30"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_height="20dp"
+			android:layout_width="match_parent"
+			android:gravity="center">
+
+			<TextView
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:text="承伤"
+				android:textSize="12sp"
+				android:alpha="0.54"
+				android:textColor="?attr/colorTextStandard"
+				android:layout_weight="17"
+				android:gravity="center"/>
+
+			<vcoty.vainglory.go.widget.NumberProgressBar
+				android:id="@+id/npb_item_roster_stats_player_dealt"
+				android:layout_height="wrap_content"
+				android:layout_width="0dp"
+				style="@style/NumberProgressBar_Grace_Yellow"
+				app:progress_max="100"
+				app:progress_current="50"
+				android:layout_weight="100"
+				android:layout_marginRight="6dp"
+				android:layout_marginLeft="3dp"
+				android:alpha="0.87"/>
+
+			<TextView
+				android:id="@+id/tv_item_roster_stats_player_dealt"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:alpha="0.87"
+				android:text="11.6 K"
+				android:textSize="14sp"
+				android:textColor="?attr/colorTextStandard"
+				android:layout_weight="30"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_height="20dp"
+			android:layout_width="match_parent"
+			android:gravity="center">
+
+			<TextView
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:text="治愈"
+				android:textSize="12sp"
+				android:alpha="0.54"
+				android:textColor="?attr/colorTextStandard"
+				android:layout_weight="17"
+				android:gravity="center"/>
+
+			<vcoty.vainglory.go.widget.NumberProgressBar
+				android:id="@+id/npb_item_roster_stats_player_healed"
+				android:layout_height="wrap_content"
+				android:layout_width="0dp"
+				style="@style/NumberProgressBar_Passing_Green"
+				app:progress_max="100"
+				app:progress_current="50"
+				android:layout_weight="100"
+				android:layout_marginRight="6dp"
+				android:layout_marginLeft="3dp"
+				android:alpha="0.87"/>
+
+			<TextView
+				android:id="@+id/tv_item_roster_stats_player_healed"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:alpha="0.87"
+				android:text="11.6 K"
+				android:textSize="14sp"
+				android:textColor="?attr/colorTextStandard"
+				android:layout_weight="30"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	app:cardCornerRadius="4dp">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="350dp"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1000"
+			android:background="#EB7A77"
+			android:gravity="center"
+			android:paddingRight="70dp"
+			android:paddingLeft="70dp"
+			android:orientation="vertical">
+
+			<ImageView
+				android:src="@drawable/ic_flower_tulip"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_marginBottom="8dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="予人玫瑰，手有余香"
+				android:alpha="0.87"
+				android:textSize="20sp"
+				android:textColor="#8A4846"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:gravity="right"
+			android:paddingBottom="8dp"
+			android:layout_weight="1618">
+
+			<TextView
+				android:text="你的捐赠并不会给你带来实际的利益，但它是对VGO的一种肯定，无论你是否捐赠，我都会用心地维护此软件。\n\n你若对你的捐赠反悔了，请在7日之内带上流水号与余额联系我，逾期概不负责！"
+				android:textSize="16sp"
+				android:alpha="0.54"
+				android:paddingRight="24dp"
+				android:paddingLeft="24dp"
+				android:textColor="?attr/colorTextStandard"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_marginTop="28dp"/>
+
+			<Button
+				android:id="@+id/btn_view_donation_dialog"
+				android:text="@string/setting_category_about_buy_a_coffee_summary"
+				android:textSize="14sp"
+				android:textColor="#8A4846"
+				style="@style/Widget.AppCompat.Button.Borderless"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="8dp"/>
+			
+		</LinearLayout>
+
+	</LinearLayout>
+
+</android.support.v7.widget.CardView>
+

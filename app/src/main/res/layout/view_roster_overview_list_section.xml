@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="56dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/tv_view_roster_overview_list_section_is_win"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Win"
+		android:alpha="0.87"
+		android:textSize="20sp"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="16dp"/>
+
+	<LinearLayout
+		android:id="@+id/view_roster_overview_list_sectionLinearLayout"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/tv_view_roster_overview_list_section_is_win"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="16dp"
+		android:gravity="center">
+
+		<TextView
+			android:id="@+id/tv_view_roster_overview_list_section_kills"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="16"
+			android:alpha="0.87"
+			android:textSize="20sp"
+			android:textColor="?attr/colorTextStandard"/>
+
+		<ImageView
+			android:src="@drawable/ic_kills"
+			android:layout_width="16dp"
+			android:layout_height="16dp"
+			android:layout_marginTop="3dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="8dp"
+		android:gravity="center"
+		android:layout_toRightOf="@id/view_roster_overview_list_sectionLinearLayout"
+		android:id="@+id/viewrosteroverviewlistsectionLinearLayout1">
+
+		<TextView
+			android:id="@+id/tv_view_roster_overview_list_section_turret"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="16"
+			android:alpha="0.87"
+			android:textSize="20sp"
+			android:textColor="?attr/colorTextStandard"/>
+
+		<ImageView
+			android:src="@drawable/ic_turret"
+			android:layout_width="16dp"
+			android:layout_height="16dp"
+			android:layout_marginTop="3dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_toRightOf="@id/viewrosteroverviewlistsectionLinearLayout1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dp"
+		android:layout_centerVertical="true">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:gravity="center">
+
+			<ImageView
+				android:src="@drawable/ic_kraken"
+				android:layout_width="16dp"
+				android:layout_height="16dp"/>
+
+			<TextView
+				android:id="@+id/tv_view_roster_overview_list_section_jungle_kills"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Text"
+				android:alpha="0.87"
+				android:textColor="?attr/colorTextStandard"
+				android:textSize="14sp"
+				android:layout_marginLeft="3dp"
+				android:gravity="center"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:layout_marginTop="5dp">
+
+			<ImageView
+				android:src="@drawable/ic_coin"
+				android:layout_width="16dp"
+				android:layout_height="16dp"/>
+
+			<TextView
+				android:id="@+id/tv_view_roster_overview_list_section_gold"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Text"
+				android:alpha="0.87"
+				android:textColor="?attr/colorTextStandard"
+				android:textSize="14sp"
+				android:layout_marginLeft="3dp"
+				android:gravity="center"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<ImageView
+		android:id="@+id/ic_view_roster_overview_list_section_flag"
+		android:src="@drawable/ic_flag_blue"
+		android:layout_width="20dp"
+		android:layout_height="20dp"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:layout_marginRight="16dp"/>
+
+</RelativeLayout>
+

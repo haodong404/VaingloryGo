@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Global -->
+<resources>
+	
+	<color name="Black">#000000</color>
+	<color name="White">#FFFFFF</color>
+	<color name="Transparent">#00ffffff</color>
+	
+	<!-- Material Colors -->
+	<color name="MaterialRed">#F44336</color>
+	<color name="MaterialBlue">#2196F3</color>
+	<color name="MaterialGreen">#4CAF50</color>
+	<color name="MaterialOrange">#FF9800</color>
+	<color name="MaterialTeal">#009688</color>
+	<color name="MaterialPink">#E91E63</color>
+	<color name="MaterialGrey">#9E9E9E</color>
+	<color name="MaterialBrown">#795548</color>
+	<color name="MaterialYellow">#FFEB3B</color>
+	<color name="MaterialPurple">#9C27B0</color>
+	<color name="MaterialCyan">#00BCD4</color>
+	<color name="MaterialLime">#CDDC39</color>
+	<color name="MaterialIndigo">#3F51B5</color>
+	<color name="MaterialLightGreen">#8BC34A</color>
+	<color name="MaterialBlueGrey">#607D8B</color>
+	<color name="MaterialAmber">#FFC107</color>
+	
+	
+	<!-- 国家颜色 -->
+	<color name="China">@color/MaterialRed</color>
+	<color name="NorthAmerica">#3F51B5</color>
+	<color name="Europe">@color/MaterialBlue</color>
+	<color name="SouthAmerica">@color/MaterialGreen</color>
+	<color name="EastAsia">#607D8B</color>
+	<color name="SoutheastAsia">@color/MaterialOrange</color>
+	<color name="UnknowCountry">@color/MaterialGrey</color>
+	
+	<!-- 段位颜色 -->
+	<color name="TierSilver">#FCFAF2</color>
+	<color name="TierCopper">#876633</color>
+	<color name="TierGolden">#FFC408</color>
+	
+	<color name="TierSilverText">#9B9A95</color>
+	<color name="TierCopperText">#E8AF58</color>
+	<color name="TierGoldenText">#9E7A05</color>
+	
+</resources>

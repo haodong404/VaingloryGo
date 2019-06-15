@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="72dp"
+	android:foreground="?android:attr/selectableItemBackgroundBorderless"
+	android:clickable="true"
+	android:orientation="vertical">
+
+	<ImageView
+		android:id="@+id/iv_item_profile_roles_role"
+		android:src="@drawable/ic_captain"
+		android:layout_width="40dp"
+		android:layout_height="40dp"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="16dp"/>
+
+	<LinearLayout
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_centerInParent="true"
+		android:id="@+id/itemprofilerolesLinearLayout1">
+
+		<ImageView
+			android:alpha="0.54"
+			android:layout_height="16dp"
+			android:layout_width="16dp"
+			android:src="@drawable/ic_kills"/>
+
+		<TextView
+			android:id="@+id/tv_item_profile_roles_kills"
+			android:alpha="0.54"
+			android:textColor="?attr/colorTextStandard"
+			android:textSize="16sp"
+			android:text="1.5"
+			android:layout_marginLeft="3dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<ImageView
+			android:alpha="0.54"
+			android:layout_height="16dp"
+			android:layout_width="16dp"
+			android:layout_marginLeft="8dp"
+			android:src="@drawable/ic_deaths"/>
+
+		<TextView
+			android:id="@+id/tv_item_profile_roles_deaths"
+			android:alpha="0.54"
+			android:textColor="?attr/colorTextStandard"
+			android:textSize="16sp"
+			android:text="0.5"
+			android:layout_marginLeft="3dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<ImageView
+			android:alpha="0.54"
+			android:layout_height="16dp"
+			android:layout_width="16dp"
+			android:layout_marginLeft="8dp"
+			android:src="@drawable/ic_assists"/>
+
+		<TextView
+			android:id="@+id/tv_item_profile_roles_assists"
+			android:alpha="0.54"
+			android:textColor="?attr/colorTextStandard"
+			android:textSize="16sp"
+			android:text="3.5"
+			android:layout_marginLeft="3dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:gravity="center"
+		android:layout_marginRight="16dp">
+
+		<TextView
+			android:id="@+id/tv_item_profile_roles_winrate"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="56%"
+			android:textSize="20sp"
+			android:alpha="0.87"
+			android:textColor="?attr/colorTextStandard"/>
+
+		<TextView
+			android:id="@+id/tv_item_profile_roles_playeds"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="146场"
+			android:textSize="14sp"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/tv_item_profile_roles_kda"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/itemprofilerolesLinearLayout1"
+		android:textSize="16sp"
+		android:alpha="0.54"
+		android:textColor="?attr/colorTextStandard"/>
+
+</RelativeLayout>
+

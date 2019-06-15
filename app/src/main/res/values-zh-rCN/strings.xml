@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">VaingloryGo</string>
+
+	<string name="network_error">网络错误</string>
+
+
+	<string name="date_just_recently">刚刚</string>
+	
+	<string name="date_hour_ago">小时前</string>
+	<string name="date_hours_ago">小时前</string>
+
+	<string name="date_minute_ago">分钟前</string>
+	<string name="date_minutes_ago">分钟前</string>
+
+	<string name="date_day_ago">昨天</string>
+	<string name="date_days_ago">天前</string>
+
+	<string name="date_week_ago">上周</string>
+	<string name="date_weeks_ago">周前</string>
+
+	<string name="date_month_ago">上个月</string>
+	<string name="date_months_ago">个月前</string>
+	
+	
+	<!-- main tool bar -->
+    <string name="main_search_bar_menu">设置 \u0026 关于</string>
+
+	<string name="main_exit_protect">再次点击返回退出</string>
+
+	<!-- search page -->
+	<string name="search_activity_text1">欢迎来到Vainglory Go</string>
+	<string name="search_activity_text2">很高兴见到你</string>
+	<string name="search_activity_search_card_text">开始查询吧</string>
+	<string name="search_activity_setting">设置 \u0026 关于</string>
+	<string name="search_activity_edittext">输入你的游戏ID</string>
+	<string name="search_activity_editor_cant_null">搜索框不能为空</string>
+	<string name="search_activity_error_no_network">网络不可用</string>
+	<string name="search_activity_delete_all_data">清除所有建议</string>
+	<string name="search_activity_delete_all_data_snack_bar">已清除所有建议</string>
+	<string name="search_activity_delete_all_data_snack_bar_action">撤销</string>
+	<string name="search_activity_get_resource">更新数据库中……</string>
+	<string name="search_activity_get_resource_success">已更新数据库</string>
+	<string name="search_activity_version_dialog_title">Android版本过低</string>
+	<string name="search_activity_version_dialog_message">抱歉，你的Android版本低于5.0，程序将无法正常运行</string>
+	<string name="search_activity_version_dialog_positive">好的</string>
+	<string name="search_activity_initial_region">初始化你的地区</string>
+	<string name="search_activity_have_set">你已选择地区为： </string>
+	
+	
+	<!-- error message -->
+	<string name="error_404_text">(｡•́︿•̀｡)\n真的什么都没有</string>
+	<string name="error_authorization">(｡•́︿•̀｡)\n授权失败</string>
+	<string name="error_network_broken">(｡•́︿•̀｡)\n网络错误</string>
+	<string name="error_unknow">(# ` n´ )\n未知错误：</string>
+	<string name="error_time_out">(｡•́︿•̀｡)\n连接超时，请重试。</string>
+	
+	
+	<string name="match_refresh_button">重新加载</string>
+	
+	<!-- profile  -->
+	<string name="profile_overview_title">总览</string>
+	<string name="profile_overview_avg">均值</string>
+	<string name="profile_overview_percent">百分比</string>
+	<string name="profile_overview_winrate">胜率</string>
+	<string name="profile_overview_kp">参团率</string>
+	<string name="profile_overview_fengshui">风水</string>
+
+	<string name="profile_role_title">位置</string>
+	<string name="profile_role_field">场</string>
+
+	<string name="profile_hero_title">英雄</string>
+	<string name="profile_hero_more">更多</string>
+	
+	<!-- Roster -->
+	<string name="roster_tablayout_title_details">详情</string>
+	<string name="roster_tablayout_title_stats">统计</string>
+	
+	<string name="roster_stats_our_side">我方</string>
+	<string name="roster_stats_enemy_side">敌方</string>
+	
+	<string name="roster_stats_bottom_dialog_redirected">转跳</string>
+	
+	<!-- Skill tier name -->
+	<string name="first_tier">初出茅庐</string>
+	<string name="second_tier">逐步成长</string>
+	<string name="third_tier">铜头铁臂</string>
+	<string name="forth_tier">值得一战</string>
+	<string name="fifth_tier">深藏不露</string>
+	<string name="sixth_tier">名不虚传</string>
+	<string name="seventh_tier">炉火纯青</string>
+	<string name="eighth_tier">神乎其技</string>
+	<string name="ninth_tier">登峰造极</string>
+	<string name="tenth_tier">至尊荣耀</string>
+
+	<!-- regions -->
+	<string name="default_string">未知地区</string>
+	<string name="cn_string">中国</string>
+	<string name="na_string">北美</string>
+	<string name="eu_string">欧洲</string>
+	<string name="sa_string">南美</string>
+	<string name="ea_string">东亚</string>
+	<string name="sg_string">东南亚</string>
+
+	<!-- game mode -->
+	<string name="mode_default">未知模式</string>
+	<string name="mode_all">全部比赛</string>
+	<string name="mode_ranked">常规 排位赛</string>
+	<string name="mode_casual">常规 匹配赛</string>
+	<string name="mode_private">常规 好友对战</string>
+	<string name="mode_private_party_vg_5v5">5v5 好友对战</string>
+	<string name="mode_private_party_draft_match_5v5">5v5征召 好友对战</string>
+	<string name="mode_private_party_draft_match">征召 好友对战</string>
+	<string name="mode_private_party_aral_match">大乱斗 好友对战</string>
+	<string name="mode_private_party_blitz_match">闪电战 好友对战</string>
+	<string name="mode_5v5_pvp_ranked">5v5 排位赛</string>
+	<string name="mode_5v5_pvp_casual">5v5 匹配赛</string>
+	<string name="mode_casual_aral">大乱斗 匹配赛</string>
+	<string name="mode_blitz_pvp_ranked">闪电战 排位赛</string>
+
+	<string name="match_item_victory">胜利</string>
+	<string name="match_item_defeat">失败</string>
+
+	<!-- dialog string of permisson -->
+	<string name="permission_dialog_title">权限申请失败</string>
+	<string name="permission_dialog_message">Vainglory Go需要获得读写储存卡权限，以用来存储与读取图片等文件</string>
+	<string name="permission_dialog_right">授权</string>
+	<string name="permission_dialog_cancel">现在不了</string>
+
+	<!-- match list -->
+	<string name="load_view_loading">加载中...</string>
+	<string name="load_view_field">加载失败</string>
+	<string name="load_view_success">加载成功</string>
+	<string name="load_view_none">无更多数据</string>
+	<string name="load_view_more">上拉加载更多</string>
+	<string name="head_view_consecutive_victory">连胜</string>
+	<string name="head_view_consecutive_defeat">连跪</string>
+	
+	<!-- setting -->
+
+	<string name="weibo_string">\@Vcoty233</string>
+	<string name="twitter_string">\@vcoty233</string>
+	<string name="email_string">vcoty233\@163.com</string>
+	<string name="copy_success">复制成功</string>
+
+	<string name="setting_category_routine">常规</string>
+	<string name="setting_category_routine_theme">主题</string>
+	<string name="setting_category_routine_theme_white">经典白</string>
+	<string name="setting_category_routine_theme_black">暗夜黑</string>
+	<string name="setting_category_routine_theme_green">原谅绿</string>
+	<string name="setting_category_routine_theme_purple">彩鹀靛</string>
+	<string name="setting_category_routine_theme_pink">少女粉</string>
+	<string name="setting_category_routine_theme_blue">知乎蓝</string>
+	<string name="setting_category_routine_theme_red">中国红</string>
+	
+	<string name="setting_category_routine_theme_change_failed">切换失败</string>
+	<string name="setting_category_routine_status_unite">沉浸式状态栏</string>
+	<string name="setting_category_routine_language">语言</string>
+	<string name="setting_category_routine_language_auto">跟随系统</string>
+	<string name="setting_category_routine_language_snack_bar">跟随系统 需要重启</string>
+	<string name="setting_category_routine_regions">地区</string>
+	<string name="setting_category_routine_ranking_points_show">分段展示规则</string>
+	<string name="setting_category_routine_ranking_points_show_auto">跟随游戏模式</string>
+	<string name="setting_category_routine_ranking_points_show_33">展示3v3的分段</string>
+	<string name="setting_category_routine_ranking_points_show_55">展示5v5的分段</string>
+	<string name="setting_category_routine_ranking_points_show_blitz">展示闪电战的分段</string>
+	<string name="setting_category_routine_jump">跳过欢迎页</string>
+	<string name="setting_category_routine_jump_summary">请先配置你的玩家ID</string>
+	<string name="setting_category_routine_jump_dialog_apply">应用</string>
+	<string name="setting_category_routine_jump_dialog_toast_error">玩家ID有误</string>
+	<string name="setting_category_routine_jump_dialog_toast_start">正在检测中...</string>
+	<string name="setting_category_routine_jump_dialog_toast_success">配置成功</string>
+
+	<string name="setting_category_advance">高级</string>
+	<string name="setting_category_advance_show_more">显示更多数据</string>
+	<string name="setting_category_advance_show_more_summary">数据来源：vgbox.cc</string>
+	<string name="setting_category_advance_updata_resource">更新数据库</string>
+	<string name="setting_category_advance_updata_resource_summary">如果有图片或英雄名字没加载出来，可以尝试更新</string>
+	<string name="setting_category_advance_destroy_cache">清除图片缓存</string>
+	<string name="setting_category_advance_destroy_cache_dialog_title">清除图片缓存？</string>
+	<string name="setting_category_advance_destroy_cache_dialog_message">你一但清除了缓存之后，下次加载图片时将耗费流量重新从网络获取。请三思！</string>
+	<string name="setting_category_advance_destroy_cache_dialog_confirm">清除</string>
+	<string name="setting_category_advance_destroy_cache_dialog_cancel">关闭</string>
+	<string name="setting_category_advance_destroy_cache_success">清除成功</string>
+	<string name="setting_category_advance_destroy_cache_field">清除失败</string>
+	<string name="setting_category_advance_destroy_cache_summary">大小：</string>
+	<string name="setting_category_advance_search_accelerate">搜索加速</string>
+	<string name="setting_category_advance_search_accelerate_summary">提高加载速度，但需要占用少量内存</string>
+	
+
+	<string name="setting_category_about">关于</string>
+	<string name="setting_category_about_version">检查更新</string>
+	<string name="setting_category_about_version_download">下载</string>
+	<string name="setting_category_about_version_downloading">下载中……</string>
+
+	<string name="setting_category_about_version_summary">当前版本：</string>
+	<string name="setting_category_about_version_toast">已为最新版本</string>
+	<string name="setting_category_about_contact">联系开发者</string>
+	<string name="setting_category_about_contact_toast">已复制邮箱 vcoty233@163.com</string>
+	<string name="setting_category_about_buy_a_coffee">给开发者递一杯咖啡ԅ(¯ㅂ¯ԅ)</string>
+	<string name="setting_category_about_buy_a_coffee_summary">支付宝</string>
+	<string name="setting_category_about_buy_a_coffee_toast">你可能没有安装支付宝</string>
+	<string name="setting_category_about_source">鸣谢 \u0026 开源许可证</string>
+</resources>

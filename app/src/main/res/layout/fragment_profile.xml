@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/srl_profile_fragment"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<android.support.v4.widget.NestedScrollView
+		android:id="@+id/nsv_fragment_profile_scroll"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"
+		android:background="?attr/colorBackgroundSecond">
+
+		<RelativeLayout
+			android:id="@+id/rl_fragment_profile_root"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+			<de.hdodenhof.circleimageview.CircleImageView
+				android:layout_width="60dp"
+				android:layout_height="60dp"
+				android:id="@+id/circle_text_iv_profile_hero"
+				android:src="@drawable/ic_launcher"
+				app:civ_border_width="2dp"
+				app:civ_border_color="?attr/colorAccent"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="24dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Vcoty233"
+				android:textIsSelectable="true"
+				android:textColor="?attr/colorAccent"
+				android:layout_marginTop="5dp"
+				android:textSize="24sp"
+				android:alpha="0.87"
+				android:layout_below="@id/circle_text_iv_profile_hero"
+				android:layout_centerHorizontal="true"
+				android:textStyle="bold"
+				android:id="@+id/tv_fragment_profile_player_name"/>
+
+			<TextView
+				android:id="@+id/tv_fragment_profile_region"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="中国"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="?attr/colorTextStandard"
+				android:alpha="0.54"
+				android:textSize="16sp"
+				android:layout_centerHorizontal="true"
+				android:layout_marginBottom="8dp"
+				android:layout_below="@+id/cv_include_profile_played_hero_card"/>
+
+			<android.support.v7.widget.RecyclerView
+				android:id="@+id/rv_profile_skill_tires"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/tv_fragment_profile_player_name"/>
+
+			<!-- 总览信息 -->
+			<include layout="@layout/include_profile_overview_card"/>
+
+			<!-- 位置 -->
+			<include layout="@layout/include_profile_roles_card"/>
+
+			<!-- 英雄 -->
+			 <include layout="@layout/include_profile_played_hero_card"/>
+
+		</RelativeLayout>
+
+	</android.support.v4.widget.NestedScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

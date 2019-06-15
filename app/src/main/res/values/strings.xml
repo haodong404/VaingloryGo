@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">VaingloryGo</string>
+
+	<string name="network_error">Network error</string>
+
+	<string name="date_just_recently">Just recently</string>
+	
+	<string name="date_hour_ago">hour ago</string>
+	<string name="date_hours_ago">hours ago</string>
+	
+	<string name="date_minute_ago">Just recently</string>
+	<string name="date_minutes_ago">minutes ago</string>
+	
+	<string name="date_day_ago">Yesterday</string>
+	<string name="date_days_ago">days ago</string>
+	
+	<string name="date_week_ago">Last week</string>
+	<string name="date_weeks_ago">weeks ago</string>
+	
+	<string name="date_month_ago">Last month</string>
+	<string name="date_months_ago">months ago</string>
+	
+	
+	<!-- main tool bar -->
+    <string name="main_search_bar_menu">Setting \u0026 About</string>
+
+	<string name="main_exit_protect">Click again to exit</string>
+
+	<!-- search page -->
+	<string name="search_activity_text1">Welcome to Vainglory Go</string>
+	<string name="search_activity_text2">Nice to meet you</string>
+	<string name="search_activity_search_card_text">Search for your name</string>
+	<string name="search_activity_setting">Setting \u0026 About</string>
+	<string name="search_activity_edittext">Enter you player ID</string>
+	<string name="search_activity_editor_cant_null">The search box can\'t is empty</string>
+	<string name="search_activity_error_no_network">Network Unavailable</string>
+	<string name="search_activity_delete_all_data">Clear all suggestions</string>
+	<string name="search_activity_delete_all_data_snack_bar">Cleared all suggestions</string>
+	<string name="search_activity_delete_all_data_snack_bar_action">UNDO</string>
+	<string name="search_activity_get_resource">Updating database...</string>
+	<string name="search_activity_get_resource_success">Updated database</string>
+	<string name="search_activity_version_dialog_title">Android version is too low</string>
+	<string name="search_activity_version_dialog_message">Sorry, your Android version is lower than 5.0 and the program will not run properly</string>
+	<string name="search_activity_version_dialog_positive">ok</string>
+	<string name="search_activity_initial_region">Initialize your region</string>
+	<string name="search_activity_have_set">You have selected a region : </string>
+	
+
+	<!-- error message -->
+	<string name="error_404_text">(｡•́︿•̀｡)\nNothing there</string>
+	<string name="error_authorization">(｡•́︿•̀｡)\nAuthorization failed</string>
+	<string name="error_network_broken">(｡•́︿•̀｡)\nNetwork error</string>
+	<string name="error_unknow">(# ` n´ )\nUnknow error:</string>
+	<string name="error_time_out">(｡•́︿•̀｡)\nTime out,Please try again.</string>
+	
+	<string name="match_refresh_button">Reload</string>
+	
+	<!-- profile  -->
+	<string name="profile_overview_title">Overview</string>
+	<string name="profile_overview_avg">Average value</string>
+	<string name="profile_overview_percent">Percentage</string>
+	<string name="profile_overview_winrate">Win rate</string>
+	<string name="profile_overview_kp">Group rate</string>
+	<string name="profile_overview_fengshui">风水</string>
+	
+	<string name="profile_role_title">Roles</string>
+	<string name="profile_role_field">games</string>
+	
+	<string name="profile_hero_title">Heroes</string>
+	<string name="profile_hero_more">More</string>
+	
+	<!-- Roster -->
+	<string name="roster_tablayout_title_details">Details</string>
+	<string name="roster_tablayout_title_stats">Statistics</string>
+	
+	<string name="roster_stats_our_side">Our Side</string>
+	<string name="roster_stats_enemy_side">Enemy Side</string>
+
+	<string name="roster_stats_bottom_dialog_redirected">Redirected</string>
+	<!-- regions -->
+	<string name="default_string">Unkonw region</string>
+	<string name="cn_string">China</string>
+	<string name="na_string">North America</string>
+	<string name="eu_string">Europe</string>
+	<string name="sa_string">South America</string>
+	<string name="ea_string">East Asia</string>
+	<string name="sg_string">Southeast Asia</string>
+
+	<!-- game mode -->
+	<string name="mode_default">Unknown</string>
+	<string name="mode_all">All modes</string>
+	<string name="mode_ranked">Ranked</string>
+	<string name="mode_casual">Casual</string>
+	<string name="mode_private">PTE</string>
+	<string name="mode_private_party_vg_5v5">5v5 PTE</string>
+	<string name="mode_private_party_draft_match_5v5">5v5 Draft PTE</string>
+	<string name="mode_private_party_draft_match">Draft PTE</string>
+	<string name="mode_private_party_aral_match">Battle Royale PTE</string>
+	<string name="mode_private_party_blitz_match">Blitz PTE</string>
+	<string name="mode_5v5_pvp_ranked">5v5 Ranked</string>
+	<string name="mode_5v5_pvp_casual">5v5 Casual</string>
+	<string name="mode_casual_aral">Battle Royale</string>
+	<string name="mode_blitz_pvp_ranked">Blitz</string>
+
+	<string name="match_item_victory">Victory</string>
+	<string name="match_item_defeat">Defeat</string>
+
+	<!-- dialog string of permisson -->
+	<string name="permission_dialog_title">Failure to apply for permission</string>
+	<string name="permission_dialog_message">Vainglory Go needs to read, write and read the storage card privileges to store and read pictures and other files</string>
+	<string name="permission_dialog_right">authorization</string>
+	<string name="permission_dialog_cancel">Not now</string>
+
+	<!-- match list -->
+	<string name="load_view_loading">Loading…</string>
+	<string name="load_view_field">Load failure</string>
+	<string name="load_view_success">Load success</string>
+	<string name="load_view_none">No more data</string>
+	<string name="load_view_more">Pull up more</string>
+	<string name="head_view_consecutive_victory">consecutive victory</string>
+	<string name="head_view_consecutive_defeat">consecutive defeat</string>
+	
+	
+	<!-- setting -->
+
+	<string name="weibo_string">\@Vcoty233</string>
+	<string name="twitter_string">\@vcoty233</string>
+	<string name="email_string">vcoty233\@163.com</string>
+	<string name="copy_success">Copy success</string>
+
+	<string name="setting_category_routine">Regular</string>
+	<string name="setting_category_routine_theme">Theme</string>
+	<string name="setting_category_routine_theme_white">White</string>
+	<string name="setting_category_routine_theme_black">Black</string>
+	<string name="setting_category_routine_theme_green">Green</string>
+	<string name="setting_category_routine_theme_purple">Indigo</string>
+	<string name="setting_category_routine_theme_pink">Pink</string>
+	<string name="setting_category_routine_theme_blue">Blue</string>
+	<string name="setting_category_routine_theme_red">Red</string>
+	
+	<string name="setting_category_routine_theme_change_failed">Switch failure</string>
+	<string name="setting_category_routine_status_unite">Immersive state bar</string>
+	<string name="setting_category_routine_language">Languages</string>
+	<string name="setting_category_routine_language_auto">Auto</string>
+	<string name="setting_category_routine_language_snack_bar">Auto mode need to restart</string>
+	<string name="setting_category_routine_regions">Regions</string>
+	<string name="setting_category_routine_ranking_points_show">Ranking points display rule</string>
+	<string name="setting_category_routine_ranking_points_show_auto">According to the game mode</string>
+	<string name="setting_category_routine_ranking_points_show_33">Display 3v3 mode </string>
+	<string name="setting_category_routine_ranking_points_show_55">Display 5v5 mode</string>
+	<string name="setting_category_routine_ranking_points_show_blitz">Display blitz mode</string>
+	<string name="setting_category_routine_jump">Jump to homepage</string>
+	<string name="setting_category_routine_jump_summary">Please click to set your player name first</string>
+	<string name="setting_category_routine_jump_dialog_apply">Apply</string>
+	<string name="setting_category_routine_jump_dialog_toast_error">Player name error</string>
+	<string name="setting_category_routine_jump_dialog_toast_start">Checking...</string>
+	<string name="setting_category_routine_jump_dialog_toast_success">Successful configuration</string>
+	
+	
+	<string name="setting_category_advance">Senior</string>
+	<string name="setting_category_advance_show_more">Display more data</string>
+	<string name="setting_category_advance_show_more_summary">data from:vgbox.cc</string>
+	<string name="setting_category_advance_updata_resource">Update database</string>
+	<string name="setting_category_advance_updata_resource_summary">If there is a picture or hero name not loaded,you can try it</string>
+	<string name="setting_category_advance_destroy_cache">Scavenging picture caching</string>
+	<string name="setting_category_advance_destroy_cache_dialog_title">Are you sure?</string>
+	<string name="setting_category_advance_destroy_cache_dialog_message">After the cache is cleaned, the traffic will be reacquired from the network next time you load the picture. Please think twice</string>
+	<string name="setting_category_advance_destroy_cache_dialog_confirm">clear</string>
+	<string name="setting_category_advance_destroy_cache_dialog_cancel">Cancel</string>
+	<string name="setting_category_advance_destroy_cache_success">Clean up success</string>
+	<string name="setting_category_advance_destroy_cache_field">Clear failure</string>
+	<string name="setting_category_advance_destroy_cache_summary">size:</string>
+	<string name="setting_category_advance_search_accelerate">Search acceleration</string>
+	<string name="setting_category_advance_search_accelerate_summary">Increase load speed,but take up a small amount of memory</string>
+
+
+	<string name="setting_category_about">About</string>
+	<string name="setting_category_about_version">Check the update</string>
+	<string name="setting_category_about_version_download">Download</string>
+	<string name="setting_category_about_version_downloading">Downloading...</string>
+
+	<string name="setting_category_about_version_summary">current version:</string>
+	<string name="setting_category_about_version_toast">Latest version</string>
+	<string name="setting_category_about_contact">Contact developer</string>
+	<string name="setting_category_about_contact_toast">Copied e-mail vcoty233@163.com</string>
+	<string name="setting_category_about_buy_a_coffee">Give the developer a cup of coffeeԅ(¯ㅂ¯ԅ)</string>
+	<string name="setting_category_about_buy_a_coffee_summary">Alipay</string>
+	<string name="setting_category_about_buy_a_coffee_toast">You may not have Alipay</string>
+	<string name="setting_category_about_source">Thanks \u0026 License</string>
+	
+</resources>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="colorAccentDark">#455A64</color>
+	<color name="colorPrimaryDark">#212121</color>
+	<color name="colorPrimaryDarkDark">#0E0E0E</color>
+
+	<color name="colorDividerDark">#494949</color>
+
+  	<style name="DarkTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+		<!-- Global -->
+		<item name="colorToolBarContent">#D9FFFFFF</item>
+		<item name="colorBackground">#212121</item>
+		<item name="colorBackgroundSecond">#303030</item>
+		<item name="colorRipple">#444444</item>
+		<item name="colorDivider">@color/colorDividerDark</item>
+
+		<item name="colorPrimary">@color/colorPrimaryDark</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDarkDark</item>
+		<item name="colorAccent">@color/colorAccentDark</item>
+		<item name="android:windowNoTitle">true</item>
+
+
+		<!-- Text color -->
+		<item name="colorTextStandard">#ffffff</item>
+		<item name="colorTextWhite">@color/White</item>
+		<item name="colorTextBlack">@color/Black</item>
+
+		<!-- SearchActivity Activity -->
+		<item name="colorSearchActTitle">#d9ffffff</item>
+		<item name="colorSearchActSubtitle">#8cffffff</item>
+		<item name="colorTextSearchActAccent">@color/colorAccentDark</item>
+
+		<!-- Search Bar Actvity -->
+		<item name="colorSearchEditTextView">#424242</item>
+
+		<!-- MainActivity -->
+		<item name="colorIndicatorMain">@color/colorAccentDark</item>
+		<item name="colorIconUnselect">#8c455A64</item>
+		<item name="colorIconSelect">@color/colorAccentDark</item>
+
+
+	</style>
+
+	<style name="FullScreenDialogToolbar">
+		<item name="android:background">@color/colorPrimaryDark</item>
+		<item name="android:theme">@style/DarkTheme</item>
+	</style>
+
+</resources>
+	

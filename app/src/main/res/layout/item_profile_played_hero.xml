@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="72dp"
+	android:foreground="?android:attr/selectableItemBackgroundBorderless"
+	android:clickable="true"
+	android:orientation="vertical">
+
+	<de.hdodenhof.circleimageview.CircleImageView
+		android:id="@+id/circle_text_iv_item_profile_played_hero_head_image"
+		android:layout_width="40dp"
+		android:layout_height="40dp"
+		android:layout_marginLeft="16dp"
+		android:layout_centerVertical="true"
+		app:civ_border_width="2dp"
+		app:civ_border_color="#e7e7e7"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="72dp">
+
+		<TextView
+			android:id="@+id/tv_item_profile_played_hero_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Kraken"
+			android:textSize="16sp"
+			android:textColor="?attr/colorTextStandard"
+			android:alpha="0.86"/>
+
+		<TextView
+			android:id="@+id/tv_item_profile_played_hero_fields"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="37场中34获胜"
+			android:textSize="14sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:layout_marginRight="16dp"
+		android:gravity="center">
+
+		<TextView
+			android:id="@+id/tv_item_profile_played_hero_winrate"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="34.8%"
+			android:textSize="20sp"
+			android:alpha="0.87"
+			android:textColor="?attr/colorTextStandard"/>
+
+		<TextView
+			android:id="@+id/tv_item_profile_played_hero_kda"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="KDA:1.5"
+			android:textSize="14sp"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/tv_item_profile_played_hero_kills_deaths"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="12/5/34"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="138dp"
+		android:textSize="20sp"
+		android:textColor="?attr/colorTextStandard"
+		android:alpha="0.87"/>
+
+</RelativeLayout>
+

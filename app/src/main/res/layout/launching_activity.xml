@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="100"
+		android:gravity="center">
+
+		<ImageView
+			android:src="@drawable/ic_launcher"
+			android:layout_width="150dp"
+			android:layout_height="150dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="50"
+		android:gravity="center">
+
+		<TextView
+			android:id="@+id/tv_launching_activity_app_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Vainglory Go"
+			android:textSize="34sp"
+			android:textColor="#FF000000"
+			android:alpha="0.54"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

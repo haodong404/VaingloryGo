@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:gravity="right|center_vertical"
+	android:background="?attr/colorBackgroundSecond"
+	android:paddingTop="8dp"
+	android:paddingBottom="8dp"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="72dp">
+
+		<de.hdodenhof.circleimageview.CircleImageView
+			android:id="@+id/circle_iv_view_bottom_dialog_roster_player_info_head_img"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_marginLeft="16dp"
+			android:layout_centerVertical="true"
+			app:civ_border_width="2dp"
+			app:civ_border_color="#e7e7e7"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="16dp"
+			android:gravity="center_vertical"
+			android:layout_toRightOf="@id/circle_iv_view_bottom_dialog_roster_player_info_head_img"
+			android:id="@+id/viewbottomdialogrosterplayerinfoLinearLayout1">
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical">
+
+				<TextView
+					android:id="@+id/tv_view_bottom_dialog_roster_player_info_skill_tier"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="/@"
+					android:alpha="0.87"
+					android:textSize="20sp"/>
+
+				<TextView
+					android:id="@+id/tv_view_bottom_dialog_roster_player_info_hero_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="塔卡"
+					android:alpha="0.87"
+					android:textColor="?attr/colorTextStandard"
+					android:layout_marginLeft="8dp"
+					android:textSize="18sp"/>
+
+			</LinearLayout>
+
+			<TextView
+				android:id="@+id/tv_view_bottom_dialog_roster_player_info_player_name"
+				android:alpha="0.87"
+				android:textSize="20sp"
+				android:textIsSelectable="true"
+				android:textColor="?attr/colorTextStandard"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Vcoty233"/>
+
+		</LinearLayout>
+		
+	</RelativeLayout>
+
+	<Button
+		android:id="@+id/btn_view_bottom_dialog_roster_player_info_to_main_page"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/roster_stats_bottom_dialog_redirected"
+		android:layout_marginRight="16dp"
+		android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
+
