@@ -3,25 +3,38 @@
 
 [English](https://github.com/VcotyQin/VaingloryGo/blob/master/README.md) │中文
 
-#### 概述
+### 概述
 - MVP 架构
 - Rxjava2
 - Fast Android Networking Library为网络框架
 - json-api的api规范
 - 全程使用[AIDE](https://www.android-ide.com/)(Android端开发Android程序的IDE)开发
 
-#### 代码规范
+
+[![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/coolapk.png)](https://www.coolapk.com/apk/vcoty.vainglory.go)
+
+### 截屏
+![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Search_page.png)
+![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Main.png)
+![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Match.png)
+![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/player.png)
+![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Player's_data page.png)
+![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Search_page.png)
+![image](https://github.com/VcotyQin/VaingloryGo/tree/master/Screenshots/Settings.png)
+
+
+### 代码规范
 - 所有Activity继承自BaseActivity 所有Fragment继承自BaseFragment
 
 - 其它的的参照(以上的规范优先)[阿里巴巴Android代码规范](https://www.jianshu.com/p/f5a55dff62f0)
 
-#### 数据源
+### 数据源
 - 玩家页数据来自于[vgpro.gg](vgpro.gg)
 - 对局的统计类信息来自于[vgpro.gg](vgpro.gg)
 - 其它游戏数据来自于虚荣官方
 - 采用Bmob后端云管理英雄头像图片，装备图片以及历代版本的相关信息
 
-####感谢开源项目
+###感谢开源项目
 - [LitePal](https://github.com/LitePalFramework/LitePal.git) 数据库框架
 - [Rxjava2](https://github.com/ReactiveX/RxJava.git) 响应式编程
 - [RxAndroid2](https://github.com/ReactiveX/RxAndroid.git) Rxjava对Android的拓展
@@ -34,17 +47,17 @@
 - [Moshi](https://github.com/square/moshi.git) json解析框架
 - [Moshi-jsonapi](https://github.com/kamikat/moshi-jsonapi.git) 对json-api规范的Moshi拓展
 
-#### License
+### License
 [Apache License 2.0](https://github.com/VcotyQin/VaingloryGo/blob/master/LICENSE)
 
-#### 更新日志
-#####v1.5.7(2019/03/06)
+### 更新日志
+####v1.5.7(2019/03/06)
 ```
 [优化] 加载更多的UI
 [修复] 加载更多时的bug
 [修复] 存在三丰的对局统计信息加载不出来
 ```
-#####v1.5.6(2019/03/01)<上架应用宝>(他们不收)
+####v1.5.6(2019/03/01)<上架应用宝>(他们不收)
 ````
 [新增] 中国红主题
 [新增] 对局详情页中点击一项可查看玩家基础信息
@@ -58,49 +71,49 @@
 [修复] 一些能够导致崩溃的bug
 ````
 
-#####v1.5.5(2018/10/20)
+####v1.5.5(2018/10/20)
 ````
 [修复] 部分用户内存溢出导致的崩溃
 [修复] 最近的比赛无法查看统计信息
 ````
 
-#####v1.5.4(2018/10/03)
+####v1.5.4(2018/10/03)
 ````
 [优化] 降低了访问超时的概率(这是今后的重点，慢慢来)
 [修复] 一些会崩溃的bug
 ````
 
-#####v1.5.3(2018/09/24)
+####v1.5.3(2018/09/24)
 各位中秋快乐!🌕
 从1.0.6 alpha升级上来的清一下数据再用，不然会崩的！!!
     [修复] 修复了一些你们可能遇不到的bug😂
     [优化] 微调布局
     [优化] 根据部分用户需求，分段展示规则的「根据游戏模式」选项中，大乱斗将展示闪电战的分段
 
-#####v1.5.2(2018/09/21)
+####v1.5.2(2018/09/21)
     [修复] 切换地区时崩溃
     [修复] 更新数据库失败后崩溃
     [修复] 更新数据库后无法查看详细数据
     [优化] 微调布局
 
-#####v1.5.1(2018/09/19)
+####v1.5.1(2018/09/19)
     紧急修复一个bug
 
-##### v1.5.0(2018/09/19)
+#### v1.5.0(2018/09/19)
     船新版本！船新版本！船新版本！ｸﾞｯ!(๑•̀ㅂ•́)و✧
     时隔两月，让大家久等了，VGO以全新的姿态与大家相逢在了酷安。
     新增加了许多功能，优化了性能，懒得写了，自己去探索吧。
     由于服务器在国外，国内我已经尽力优化了，用ti子会快点。(国内慢的问题依旧是以后优化的重点，不用反馈了)
     由于这个版本重构了项目的，建议卸掉原来的版本重新下载，或者清除一下数据。(崩溃了别找我(/ω＼))
 
-##### v1.0.6 alpha 
+#### v1.0.6 alpha 
 感谢捐赠:
     @Alllie
 
     [修复] 很久没有玩过的玩家查看个人信息时崩溃
     [修复] 部分没玩过排位的玩家查看个人信息时崩溃
 
-##### v1.0.5 alpha
+#### v1.0.5 alpha
 感谢捐赠:
     @口吻
 
@@ -113,7 +126,7 @@
     [修复] 上个版本写的bug
     [修复] 最近参赛的列表滑动过快导致无法加载更多
 
-##### v1.0.4 alpha
+#### v1.0.4 alpha
 我来紧急修几个hug
 
     [优化] 换回了原来的接口，又可以随便玩了
@@ -121,7 +134,7 @@
 
 由于学习原因，我今后会尽量保持周更的！如果有有延迟，请见谅。😀
 
-##### v1.0.3 alpha
+#### v1.0.3 alpha
 感谢捐赠:
     @我就是喜欢你呀i
 
@@ -130,14 +143,14 @@
 
     这个临时的接口每分钟只有10次调用次数，你们悠着点
 
-##### v1.0.2 alpha
+#### v1.0.2 alpha
     [新增] 战绩列表模式筛选
     [优化] 图标换了(感谢@hk流星😀)
     [优化] 小幅度提升性能
     [修复] 捐赠时会崩溃(我也不清除治好没有，大部分没毛病，以前有问题的现在试试有没有问题)
     [修复] 几个小bug而已
 
-##### v1.0.1 alpha
+#### v1.0.1 alpha
     [新增] Android 5.0 以下的版本无法使用的提示(别问我为什么不适配5.0以下的,换手机吧)
     [新增] 点击建议条目直接搜索
     [优化] 提升性能
@@ -147,5 +160,5 @@
     [修复] 清空所有条目再撤销时不添加
     [修复] 更新本地数据库之后装备显示的bug
 
-##### v1.0.0 alpha
+#### v1.0.0 alpha
     第一个版本
